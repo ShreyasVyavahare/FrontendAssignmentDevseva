@@ -1,0 +1,60 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sliderContainer {
+  margin-bottom: 40px;
+}
+
+.slide {
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.media {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.addButton {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gridItem {
+  width: 100%;
+}
+
+.viewMoreButton {
+  display: block;
+  margin: 0 auto;
+}

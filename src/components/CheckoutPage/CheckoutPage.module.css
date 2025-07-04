@@ -1,0 +1,48 @@
+.container {
+  padding: 20px;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.removeButton {
+  margin-left: 10px;
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+.payButton {
+  width: 100%;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
