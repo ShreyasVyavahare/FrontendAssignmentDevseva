@@ -1,0 +1,80 @@
+[
+  {
+    "orderId": 1001,
+    "paymentId": "PAY001",
+    "amountToPay": 1200,
+    "userId": 1,
+    "items": [
+      {
+        "id": 1,
+        "code": "S001",
+        "title": "Ganga Aarti",
+        "discountedPrice": 1200
+      }
+    ],
+    "address": {
+      "name": "Rahul Sharma",
+      "addrLine1": "123 Main Street",
+      "addrLine2": "Apartment 4B",
+      "pincode": 110001,
+      "city": "New Delhi",
+      "state": "Delhi",
+      "type": 1,
+      "verified": true
+    },
+    "status": "completed",
+    "createdAt": "2024-01-20T10:30:00Z"
+  },
+  {
+    "orderId": 1002,
+    "paymentId": "PAY002",
+    "amountToPay": 1600,
+    "userId": 2,
+    "items": [
+      {
+        "id": 2,
+        "code": "S002",
+        "title": "Rudrabhishek",
+        "discountedPrice": 1600
+      }
+    ],
+    "address": {
+      "name": "Priya Patel",
+      "addrLine1": "456 Oak Avenue",
+      "addrLine2": "Floor 2",
+      "pincode": 400001,
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "type": 2,
+      "verified": true
+    },
+    "status": "completed",
+    "createdAt": "2024-01-25T14:45:00Z"
+  },
+  {
+    "orderId": 1003,
+    "paymentId": "PAY003",
+    "amountToPay": 800,
+    "userId": 3,
+    "items": [
+      {
+        "id": 4,
+        "code": "S004",
+        "title": "Sundarkand Path",
+        "discountedPrice": 800
+      }
+    ],
+    "address": {
+      "name": "Amit Kumar",
+      "addrLine1": "789 Pine Road",
+      "addrLine2": "Unit 7C",
+      "pincode": 700001,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "type": 1,
+      "verified": true
+    },
+    "status": "completed",
+    "createdAt": "2024-02-05T09:15:00Z"
+  }
+] 
